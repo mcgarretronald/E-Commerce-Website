@@ -126,7 +126,7 @@ body.showCart .cartTab {
 }
 
 .listCart {
-    max-height: 100px;
+    max-height: auto;
     overflow-y: scroll;
 }
 
