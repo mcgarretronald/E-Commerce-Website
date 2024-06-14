@@ -1,0 +1,57 @@
+/* mobile phones  */
+@media screen and (max-width: 480px) {
+   
+    body{
+        border: 1px solid;
+    }
+    .lp {
+        background: transparent;
+    }
+
+    .landing-part img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .landing-part-content {
+        top: 15vh;
+        left: 3vh;
+    }
+    .landing-part-content h1 {
+        font-size: 50px;
+       
+    }
+    .landing-part-content img {
+        padding: 10px;
+    }
+    
+ 
+    .seeProducts button{
+        padding: 10px 40px;
+        margin: 5% 25%;
+       cursor: pointer;
+    }
+    .limitedCollection-imgs img {
+        width: 150px;
+        height: 300px;
+       
+    }
+    .subscription input {
+        width: 100px;
+    }
+
+
+}
+
+/* I-PADS */
+@media screen and (max-width: 1280px) {
+    body{
+        overflow-x: hidden;
+    }
+    .seeProducts button{
+        padding: 10px 50px;
+        cursor: pointer;
+       font-size: 20px;
+    }
+
+}

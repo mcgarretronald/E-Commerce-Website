@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sale</title>
+    <link rel="stylesheet" href="index.css">
+  
+    <script src="https://kit.fontawesome.com/26bacd17cb.js" crossorigin="anonymous"></script>
+    <style>
+        .container{
+            margin:5% 15%;
+      
+            background-color: rgb(234, 164, 13);
+            height: 300px;
+            border-radius: 20px;
+            transition: transform 1s ease;
+        }
+        .container:hover {
+            transform: rotateY(360deg);
+        }
+        .container h1,p{
+            margin-left:35% ;
+            padding-top: 30px;
+    
+        }
+        .text{
+            margin-left:30% ;
+        }
+        body{
+         color: white;
+         font-size: 20px;
+         background-color: rgb(217, 217, 217);
+            
+        }
+        @media screen and (max-width: 1200px) {
+            .container h1{
+                margin-left:5% ;
+            }
+            .container p{
+            margin-left:10% ;
+            padding-top: 10px;
+    
+        }
+        .text{
+            margin-left:1% ;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <nav class="navigationBar">
+            <section id="navigationBar-logo">
+                <a href="index.html"><img src="/pics/Screenshot from 2024-06-10 17-52-31.png" alt="Logo"></a>
+            </section>
+            <section class="navigationBar-link">
+                <li><a href="products.html">Products</a></li>
+            </section>
+
+
+            <section class="navigationBar-icons">
+                <a href="products.html" style="color: white;"><i class="fa-solid fa-magnifying-glass"></i></a>
+             
+            </section>
+        </nav>
+
+    </header>
+    <div class="container">
+        <h1>Purchase complete</h1>
+        <p>Thank You For Shopping With Us</p>
+        <p class="text">You Will Receive A Confirmation Message Shortly </p>
+        
+    </div>
+
+ 
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="products.html">
+    <link rel="stylesheet" href="checkoutmedia.css">
+  
+    <link rel="stylesheet" href="sale.html">
+    <script src="https://kit.fontawesome.com/26bacd17cb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navigationBar">
+            <section id="navigationBar-logo">
+                <a href="index.html"><img src="/pics/Screenshot from 2024-06-10 17-52-31.png" alt="Logo"></a>
+            </section>
+            <section class="navigationBar-link">
+                <li><a href="products.html">Products</a></li>
+            </section>
+
+
+            <section class="navigationBar-icons">
+                <a href="products.html" style="color: white;"><i class="fa-solid fa-magnifying-glass"></i></a>
+               
+            </section>
+        </nav>
+
+    </header>
+    <main>
+        <div class="form">
+
+            <form>
+                <h1>CHECKOUT</h1>
+                <p id="purchase-submission-text"></p>
+                <h3>Contact Details</h3>
+                <p>We'll use these details to keep you informed on your delivery.</p>
+                <input type="email" placeholder="Email *" id="email" required>
+                <h3>SHIPPING ADDRESS</h3>
+                <input type="text" placeholder="First Name *" id="FirstName" required> 
+                <input type="text" placeholder="Last Name *" id="LastName" required><br>
+                <input type="text" placeholder="Size *" id="product-size" required>
+                <input type="text" placeholder="Delivery Address *" id="DeliveryAddress" required><br>
+                <input type="tel" placeholder="Phone Number *" id="PhoneNumber" required>
+                <div >
+                    <button id="purchase-button" type="submit">Purchase</button>
+                    <a href="products.html"><button id="cancel-button" type="button">Cancel</button></a>
+                </div>
+            </form>
+          
+        </div>
+        
+    </main>
+  
+    <footer class="footer">
+        <div class="footer-followUs">
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> "MCGARRET" 2023</p>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policyw </a>
+        </div>
+    </footer>
+    <script src="checkout.js"></script>
+</body>
+
+</html>

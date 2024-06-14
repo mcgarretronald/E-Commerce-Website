@@ -1,0 +1,47 @@
+/* phones */
+@media screen and (max-width: 480px) {
+    #navigationBar-logo{
+        margin-left: -20px;
+      
+       }
+.container {
+    width: 10px;
+}
+#kids,
+#women,
+#men {
+    display: flex;
+    flex-direction: column;
+    
+}
+.cartTab {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.listCart{
+    max-height: 500px;
+}
+.listCart-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    bottom: 0;
+   
+}
+.cartTab-btn{
+   display: flex;
+ 
+
+}
+
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    .listCart{
+        max-height: 92%;
+    }
+}

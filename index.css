@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    width: 89%;
+    margin:  0% 5%;
+
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+   
+    background-color: #333;
+
+}
+
+.newItems,
+.limitedCollection {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.category,
+.limitedCollection-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category img,
+.limitedCollection-imgs img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navigationBar-link li{
+    list-style: none;
+}
+.navigationBar-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigationBar-icons {
+    display: flex;
+    gap: 20px;
+   
+   
+}
+
+#navigationBar-logo img {
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.landing-part {
+    position: relative;
+    text-align: center;
+}
+
+.lp {
+  
+    background: orange;
+}
+
+.landing-part img {
+    /* width: 100%; */
+    height: auto;
+    margin-left: 30%;
+
+    max-height: 600px;
+    overflow: hidden;
+
+}
+
+.landing-part-content {
+    position: absolute;
+    top: 18vh;
+    left: 6vh;
+
+
+}
+
+.landing-part-content h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.landing-part-button {
+    padding: 10px 50px;
+    border: 2px solid;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.landing-part-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 50px;
+
+}
+
+
+
+.seeProducts button{
+    padding: 10px 50px;
+    border: 2px solid;
+    background-color:orange;
+    color: white;
+    font-size: 15px;
+    margin: 5% 35%;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/* SUBSCRIPTION */
+.subscription {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.subscription .form {
+    display: inline-block;
+}
+
+.subscription input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.subscription button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.item-price,.item-size{
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+
+
+}
+
+.footer-followUs {
+    margin-bottom: 20px;
+}
+
+.footer-followUs ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.footer-followUs ul li {
+    margin: 10px 0;
+}
+
+.social-icons i {
+    margin: 0 10px;
+}
+.footer-followUs .social-icons i:hover{
+    transform: scale(2);
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.nav-links a{
+    padding-left:10px ;
+}
+
+
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  

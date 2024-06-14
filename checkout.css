@@ -1,0 +1,64 @@
+.form form div{
+    display: flex;
+}
+
+.form form{ 
+    margin: 0% 30% 2%; 
+   
+}
+.form form h5{
+    text-decoration: underline;
+    margin-left: 5%;
+}
+.form form p{
+    font-size: 10px;
+}
+#email,#DeliveryAddress {
+    padding: 10px ;
+    width: 85%;
+    border: 1px solid;
+    margin: 2% 0%;
+}
+#FirstName,#LastName,#PhoneNumber{
+    padding: 10px ;
+    width: 40%;
+    border: 1px solid;
+    margin: 2% 0% 5%;
+}
+#purchase-submission-text{
+    font-size: 16px;
+    color: red;
+}
+
+
+
+#cancel-button{
+    padding: 10px 50px;
+    border: 2px solid;
+    background-color:orange;
+    color: white;
+    font-size: 15px;
+   
+   border-radius: 10px;
+  
+}
+
+#purchase-button{
+    padding: 10px 50px;
+    border: 2px solid;
+    background-color:orange;
+    color: white;
+    font-size: 15px;
+  
+   border-radius: 10px;
+}
+.detailOfProducts{
+    margin: 5% 30%;
+   
+}
+.detailProducts{
+    background: #f5f5f5;
+}
+.footer-followUs .social-icons i:hover{
+    transform: scale(2);
+}
