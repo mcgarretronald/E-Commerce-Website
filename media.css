@@ -1,9 +1,11 @@
 /* mobile phones  */
-@media screen and (max-width: 480px) {
+@media screen and  (max-width: 480px) {
    
     body{
         border: 1px solid;
+        overflow-x: hidden;
     }
+   
     .lp {
         background: transparent;
     }

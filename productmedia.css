@@ -1,5 +1,10 @@
 /* phones */
+
+
 @media screen and (max-width: 480px) {
+    .category-title{
+        display: none;
+    }
     #navigationBar-logo{
         margin-left: -20px;
       
@@ -44,4 +49,7 @@
     .listCart{
         max-height: 92%;
     }
+}
+.category-title{
+    display: none;
 }
