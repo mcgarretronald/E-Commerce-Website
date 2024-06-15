@@ -4,6 +4,9 @@
         top: 5vh;
         left: 3vh;
     }
+    .landing-part-button{
+        display: none;
+    }
     
 }
 @media screen and  (max-width: 480px) {
