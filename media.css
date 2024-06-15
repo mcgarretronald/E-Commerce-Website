@@ -1,4 +1,11 @@
 /* mobile phones  */
+@media screen and (max-width: 320px) {
+    .landing-part-content {
+        top: 5vh;
+        left: 3vh;
+    }
+    
+}
 @media screen and  (max-width: 480px) {
    
     body{
