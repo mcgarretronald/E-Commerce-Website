@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const phoneNumber = document.getElementById('PhoneNumber').value.trim();
 
         // Validate input fields
-        if (!email || !firstName || !lastName || !size || !deliveryAddress || !phoneNumber) {
+        if (!email && !firstName && !lastName && !size && !deliveryAddress && !phoneNumber) {
             purchaseSubmissionText.textContent = "Please fill in all required fields.";
             return;
         }
